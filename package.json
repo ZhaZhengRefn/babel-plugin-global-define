@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-global-define",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The GlobalDefine plugin allows you to create global constants which is similar to Webpack's DefinePlugin.",
   "main": "lib",
   "scripts": {
