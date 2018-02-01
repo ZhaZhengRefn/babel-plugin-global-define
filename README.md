@@ -3,6 +3,10 @@ The GlobalDefine plugin allows you to create global constants which is similar t
 
 ## Usage
 
+### install
+``` javascript
+npm i babel-plugin-global-define --save-dev
+``` 
 ### .babelrc
 ``` javascript
 {
