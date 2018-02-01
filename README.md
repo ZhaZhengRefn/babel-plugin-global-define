@@ -21,3 +21,22 @@ require("babel-core").transform("foo();", {
     ]}
 })
 ```
+
+## Example
+
+### In
+```javascript
+const hosts = {
+    development: 'https://test.github.com/',
+    production: 'https://www.github.com/'
+}
+const currentHost = hosts[__ENV__]
+````
+### Out
+```javascript
+const hosts = {
+    development: 'https://test.github.com/',
+    production: 'https://www.github.com/'
+}
+const currentHost = hosts["production"]
+````
